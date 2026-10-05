@@ -112,7 +112,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-xs text-slate-500 transition-colors hover:text-brand-orange"
             >
-              homefy.in
+              www.teamhomefy.in
               <ArrowUpRight size={12} />
             </a>
             <a

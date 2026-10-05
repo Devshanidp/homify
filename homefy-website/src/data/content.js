@@ -208,7 +208,7 @@ export const companyAddress =
 
 export const companyLegalName = 'TEAM HOMEFY LLP'
 
-export const websiteUrl = 'https://homefy.in'
+export const websiteUrl = 'https://www.teamhomefy.in'
 
 export const shopUrl = 'https://shophomefy.com'
 

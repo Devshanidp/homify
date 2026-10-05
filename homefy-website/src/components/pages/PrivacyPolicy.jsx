@@ -304,7 +304,7 @@ export default function PrivacyPolicy() {
                     rel="noopener noreferrer"
                     className="font-medium text-brand-orange"
                   >
-                    homefy.in
+                    www.teamhomefy.in
                   </a>
                 </p>
               </div>

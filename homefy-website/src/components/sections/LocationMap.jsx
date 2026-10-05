@@ -56,7 +56,7 @@ export default function LocationMap() {
                     rel="noopener noreferrer"
                     className="text-sm font-medium text-brand-orange transition-colors hover:text-brand-orange-dark"
                   >
-                    homefy.in
+                    www.teamhomefy.in
                   </a>
                 </div>
               </div>
