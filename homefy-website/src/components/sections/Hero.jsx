@@ -53,7 +53,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex flex-wrap gap-4"
             >
-              <Button href="#segments" variant="primary" className="group">
+              <Button href="#interiors" variant="primary" className="group">
                 Explore Interiors
                 <ArrowRight
                   size={16}

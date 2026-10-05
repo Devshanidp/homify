@@ -62,8 +62,8 @@ export const heroSlides = [
     label: 'Interiors',
   },
   {
-    src: '/hero/solar.png',
-    alt: 'Solar panel installation on a Kerala rooftop',
+    src: '/hero/solar.jpg',
+    alt: 'Premium residential solar panel installation at sunset',
     label: 'Solar',
   },
   {
@@ -73,21 +73,59 @@ export const heroSlides = [
   },
 ]
 
+export const interiorSlides = [
+  {
+    src: '/interiors/modular-kitchen.jpg',
+    alt: 'Modern modular kitchen with premium finishes',
+    caption: 'Modular kitchens & wardrobes — smart storage, elegant design',
+  },
+  {
+    src: '/interiors/custom-furniture.jpg',
+    alt: 'Custom furniture crafted for modern living spaces',
+    caption: 'Custom furniture manufacturing — built to fit your home perfectly',
+  },
+  {
+    src: '/interiors/turnkey-interiors.jpg',
+    alt: 'Full turnkey home interior living room design',
+    caption: 'Full turnkey home interiors — from concept to completion',
+  },
+  {
+    src: '/interiors/space-planning.jpg',
+    alt: 'Interior space planning and 3D design consultation',
+    caption: 'Space planning and 3D design — visualize before you build',
+  },
+]
+
 export const solarSlides = [
   {
-    src: '/solar/solar-1.png',
-    alt: 'HOMEFY solar team installing panels on a residential rooftop in Kerala',
-    caption: 'Expert rooftop solar installations across Kerala homes',
+    src: '/solar/solar-profile.jpg',
+    alt: 'Team HOMEFY LLP — integrated home solutions: interiors, solar, and lifestyle',
+    caption: 'Team HOMEFY LLP — turning houses into homes with smart power solutions',
   },
   {
-    src: '/solar/solar-2.png',
-    alt: 'Professional solar panel installation and maintenance',
-    caption: 'Precision mounting, wiring, and quality-checked handover',
+    src: '/solar/solar-1.jpg',
+    alt: 'Modern home with rooftop and terrace solar panel installation',
+    caption: 'Premium residential solar — designed for performance and curb appeal',
   },
   {
-    src: '/solar/solar-3.png',
-    alt: 'End-to-end solar installation process from rails to finished array',
-    caption: 'Complete process — survey, install, connect, and support',
+    src: '/solar/solar-2.jpg',
+    alt: 'Large-scale solar panel array generating clean renewable energy',
+    caption: 'High-efficiency solar systems for reliable, sustainable power',
+  },
+  {
+    src: '/solar/solar-4.jpg',
+    alt: 'Professional team installing solar panels on a residential rooftop',
+    caption: 'Skilled technicians delivering safe, precise rooftop installations',
+  },
+  {
+    src: '/solar/solar-5.jpg',
+    alt: 'Commercial solar panel installation on an industrial rooftop at sunset',
+    caption: 'Scalable solar solutions for homes, businesses, and industrial spaces',
+  },
+  {
+    src: '/solar/solar-6.jpg',
+    alt: 'Ground-mounted solar panels in a residential garden setting',
+    caption: 'Flexible solar setups — rooftop, terrace, and ground-mount options',
   },
 ]
 
@@ -171,6 +209,10 @@ export const companyAddress =
 export const companyLegalName = 'TEAM HOMEFY LLP'
 
 export const websiteUrl = 'https://homefy.in'
+
+export const shopUrl = 'https://shophomefy.com'
+
+export const privacyPolicyUpdated = '6 October 2026'
 
 export const businessHours = 'Mon – Sat: 9:00 AM – 6:00 PM · Sunday: Closed'
 

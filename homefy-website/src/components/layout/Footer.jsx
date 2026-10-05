@@ -5,6 +5,7 @@ import {
   contactPhones,
   mapsLink,
   navLinks,
+  shopUrl,
   websiteUrl,
 } from '../../data/content'
 import Logo from '../ui/Logo'
@@ -13,7 +14,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-charcoal text-white">
       <div className="section-padding container-wide">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-16">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
           <div>
             <Logo className="mb-6 h-32 w-32" />
             <p className="mb-2 text-xs font-medium uppercase tracking-wider text-slate-400">
@@ -66,6 +67,23 @@ export default function Footer() {
               ))}
             </ul>
           </div>
+
+          <div>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-300">
+              Legal
+            </h3>
+            <p className="mb-4 max-w-xs text-sm leading-relaxed text-slate-400">
+              How we handle enquiries, WhatsApp messages, site visits, and information
+              collected through this website.
+            </p>
+            <a
+              href="#privacy"
+              className="inline-flex items-center gap-1 text-sm font-medium text-brand-orange transition-colors hover:text-orange-300"
+            >
+              Privacy Policy
+              <ArrowUpRight size={14} />
+            </a>
+          </div>
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row">
@@ -83,6 +101,12 @@ export default function Footer() {
               </a>
             ))}
             <a
+              href="#privacy"
+              className="text-xs text-slate-500 transition-colors hover:text-brand-orange"
+            >
+              Privacy Policy
+            </a>
+            <a
               href={websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -92,7 +116,7 @@ export default function Footer() {
               <ArrowUpRight size={12} />
             </a>
             <a
-              href="https://shophomefy.com"
+              href={shopUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-xs text-slate-500 transition-colors hover:text-brand-orange"

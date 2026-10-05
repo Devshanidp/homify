@@ -28,7 +28,7 @@ export default function ImageCarousel({ slides, autoPlayMs = 5000, className = '
 
   return (
     <div className={`relative overflow-hidden rounded-2xl bg-charcoal ring-1 ring-black/10 ${className}`}>
-      <div className="relative aspect-[16/10] w-full md:aspect-[21/9]">
+      <div className="relative aspect-[16/10] w-full md:aspect-[16/9] lg:aspect-[3/2]">
         <AnimatePresence mode="wait">
           <motion.img
             key={slide.src}
